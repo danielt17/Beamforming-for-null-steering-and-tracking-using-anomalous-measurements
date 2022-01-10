@@ -1,7 +1,7 @@
 # Beamforming-and-tracking-using-anomalous-measurements
 
 This repository contains MATLAB code for the following simulation:
-1. A comparison of beamforming algorithms: Max Ratio Combining (MRC) and Minimum Variance Distortioless Response (MVDR)
+1. A comparison of beamforming algorithms: Max Ratio Combining (MRC) and Minimum Variance Distortioless Response (MVDR).
 2. The simulation contains a signal we want to track, and a jammer which we want to nullify.
 3. The signal and jammer sources are moving with constant velocity, the jammer has twice the velocity of the signal source.
 4. We use a set of pilot signals to estimate the channel model (weights).
