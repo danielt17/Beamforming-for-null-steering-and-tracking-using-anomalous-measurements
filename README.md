@@ -11,7 +11,11 @@ This repository contains MATLAB code for the following simulation:
 In depth look at the simulation:
 
 1. We generate bits which transmit over a QPSK modulation, the signals are made of pilot signals and the transmitted data. 
-A block is defined in the following way using concatenation: [pilots, signals]
+A block is defined in the following way using concatenation: [pilots, signals]. 
+The signals are defined in the following way: 
+
+<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;s&space;=&space;e^{2\pi&space;\cdot&space;j&space;\cdot&space;\phi}&space;\cdot&space;e^{-&space;\pi&space;\cdot&space;j&space;\cdot&space;sin(\frac{\pi&space;\cdot&space;\theta}{180})&space;\cdot&space;[0,1,...,N-2,N-1]^{T}}&space;\cdot&space;symbols" title="\bg_white s = e^{2\pi \cdot j \cdot \phi} \cdot e^{- \pi \cdot j \cdot sin(\frac{\pi \cdot \theta}{180}) \cdot [0,1,...,N-2,N-1]^{T}} \cdot symbols" />
+
 QPSK symbol set:
 <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;1&plus;j,&space;1-1j,&space;-1&plus;1j,&space;1-1j" title="\bg_white 1+j, 1-1j, -1+1j, 1-1j" />
 
