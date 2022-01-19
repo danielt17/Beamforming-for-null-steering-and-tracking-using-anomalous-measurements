@@ -12,6 +12,7 @@ In depth look at the simulation:
 
 QPSK symbol set:
 
+<img src="https://latex.codecogs.com/svg.image?1&plus;j,&space;1-1j,&space;-1&plus;1j,&space;1-1j" title="1+j, 1-1j, -1+1j, 1-1j" />
 ![image](https://user-images.githubusercontent.com/60748408/150105145-57990d96-8ed5-4209-9538-1278fda34ae6.png)
 
 A video describing the beamforming and tracking with respect to time
