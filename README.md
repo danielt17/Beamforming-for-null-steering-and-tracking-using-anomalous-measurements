@@ -11,7 +11,8 @@ This repository contains MATLAB code for the following simulation:
 In depth look at the simulation:
 
 QPSK symbol set:
-![image](https://user-images.githubusercontent.com/60748408/150105063-5b43757f-1bee-4894-a1dd-bf8d603f26bb.png)
+
+![image](https://user-images.githubusercontent.com/60748408/150105145-57990d96-8ed5-4209-9538-1278fda34ae6.png)
 
 A video describing the beamforming and tracking with respect to time
 
