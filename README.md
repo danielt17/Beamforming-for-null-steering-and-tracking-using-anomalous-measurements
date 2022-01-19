@@ -18,7 +18,7 @@ The signals are defined in the following way:
 
 where we have N antenas with different time delays to create the effect of coherent summation, as can be seen in the image below describing a phased array setup.
 
-![image](https://en.wikipedia.org/wiki/Phased_array#/media/File:Phased_array_animation_with_arrow_10frames_371x400px_100ms.gif)
+https://en.wikipedia.org/wiki/Phased_array#/media/File:Phased_array_animation_with_arrow_10frames_371x400px_100ms.gif
 
 
 QPSK symbol set:
