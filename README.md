@@ -16,9 +16,9 @@ The signals are defined in the following way:
 
 <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;s&space;=&space;e^{2\pi&space;\cdot&space;j&space;\cdot&space;\phi}&space;\cdot&space;e^{-&space;\pi&space;\cdot&space;j&space;\cdot&space;sin(\frac{\pi&space;\cdot&space;\theta}{180})&space;\cdot&space;[0,1,...,N-2,N-1]^{T}}&space;\cdot&space;symbols" title="\bg_white s = e^{2\pi \cdot j \cdot \phi} \cdot e^{- \pi \cdot j \cdot sin(\frac{\pi \cdot \theta}{180}) \cdot [0,1,...,N-2,N-1]^{T}} \cdot symbols" />
 
-where we have $N$ antenas with different time delays to create the effect of coherent summation, as can be seen in the image below describing a phased array setup.
+where we have N antenas with different time delays to create the effect of coherent summation, as can be seen in the image below describing a phased array setup.
 
-![image](https://user-images.githubusercontent.com/60748408/150115051-980a80c4-65db-4333-ab7b-65360c68acfa.png)
+![image](https://en.wikipedia.org/wiki/Phased_array#/media/File:Phased_array_animation_with_arrow_10frames_371x400px_100ms.gif)
 
 
 QPSK symbol set:
