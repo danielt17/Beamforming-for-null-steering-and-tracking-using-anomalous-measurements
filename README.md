@@ -10,6 +10,9 @@ This repository contains MATLAB code for the following simulation:
 
 In depth look at the simulation:
 
+We generate bits which transmit over a QPSK modulation, the signals are made of pilot signals and the transmitted data. 
+A block is defined in the following way using concatenation: [pilot signals, signals]
+
 QPSK symbol set:
 
 <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;1&plus;j,&space;1-1j,&space;-1&plus;1j,&space;1-1j" title="\bg_white 1+j, 1-1j, -1+1j, 1-1j" />
