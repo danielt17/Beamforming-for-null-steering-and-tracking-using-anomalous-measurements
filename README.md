@@ -18,7 +18,9 @@ The signals are defined in the following way:
 
 where we have N antenas with different time delays to create the effect of coherent summation, as can be seen in the image below describing a phased array setup.
 
-![Alt Text](https://en.wikipedia.org/wiki/Phased_array#/media/File:Phased_array_animation_with_arrow_10frames_371x400px_100ms.gif)
+
+![Alt Text](https://upload.wikimedia.org/wikipedia/commons/4/4a/Phased_array_animation_with_arrow_10frames_371x400px_100ms.gif)
+
 
 
 
