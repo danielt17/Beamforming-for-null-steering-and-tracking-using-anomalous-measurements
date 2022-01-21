@@ -40,7 +40,12 @@ Therefore the recieved signal model is:
 <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;x_N(\theta)=&space;s_N(\theta)&space;&plus;&space;j_N(\theta)&space;&plus;&space;n" title="\bg_white x_N(\theta)= s_N(\theta) + j_N(\theta) + n" />
 
 The recieved signal is composed of three part, each with different amplitudes which we model in the following way:
-<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;\rho=10^{-\frac{SNRdB}{20}" title="\bg_white \rho=10^{-\frac{SNRdB}{20}" />
+
+<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;x_N(\theta)=&space;s_N(\theta)&space;&plus;&space;m&space;j_N(\theta)&space;&plus;&space;\rho&space;n" title="\bg_white x_N(\theta)= s_N(\theta) + m j_N(\theta) + \rho n" />
+
+Where:
+
+<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;m=10^{-\frac{SIRdB}{20}},&space;\rho=10^{-\frac{SNRdB}{20}}" title="\bg_white m=10^{-\frac{SIRdB}{20}}, \rho=10^{-\frac{SNRdB}{20}}" />
 
 
 A video describing the beamforming and tracking with respect to time
