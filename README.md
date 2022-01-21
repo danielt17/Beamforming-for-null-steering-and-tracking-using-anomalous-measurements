@@ -54,6 +54,7 @@ Where:
 <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;\hat{w}&space;=&space;argmin_{w}&space;|p-Yw|^2&space;\rightarrow&space;\hat{w}=(Y^TY)^{-1}Y^Tp" title="\bg_white \hat{w} = argmin_{w} |p-Yw|^2 \rightarrow \hat{w}=(Y^TY)^{-1}Y^Tp" />
 
 Where p are the expected pilot signals, Y are the recieved pilots and w describes the channel coefficents.
+channel estimation is done every second packet of symbols.
 
 A video describing the beamforming and tracking with respect to time
 
