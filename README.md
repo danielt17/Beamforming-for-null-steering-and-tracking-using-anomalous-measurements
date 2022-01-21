@@ -1,4 +1,4 @@
-# Beamforming-and-tracking-using-anomalous-measurements
+# Beamforming-for-null-steering-and-tracking-using-anomalous-measurements
 
 This repository contains MATLAB code for the following simulation:
 1. A comparison of beamforming algorithms: Max Ratio Combining (MRC) and Minimum Variance Distortioless Response (MVDR).
