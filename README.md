@@ -48,6 +48,12 @@ Where:
 <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;m=10^{-\frac{SIRdB}{20}},&space;\rho=10^{-\frac{SNRdB}{20}}" title="\bg_white m=10^{-\frac{SIRdB}{20}}, \rho=10^{-\frac{SNRdB}{20}}" />
 
 
+2. We do LS channel estimation using pilot signals, where the expected pilot signals structure is known and which will be used to estimate the channel coefficents using the recieved pilot signals. The problem can be formulated in the following manner:
+
+<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;\hat{w}&space;=&space;argmin_{w}&space;|p-Yw|^2&space;\rightarrow&space;\hat{w}=(Y^TY)^{-1}Y^Tp" title="\bg_white \hat{w} = argmin_{w} |p-Yw|^2 \rightarrow \hat{w}=(Y^TY)^{-1}Y^Tp" />
+
+
+
 A video describing the beamforming and tracking with respect to time
 
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/bOLJTF90Vzs/0.jpg)](https://youtu.be/bOLJTF90Vzs)
