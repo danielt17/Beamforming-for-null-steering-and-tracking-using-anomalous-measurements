@@ -30,6 +30,7 @@ The noise added to our model is complex gaussian noise:
 
 Therefore the recieved signal model is:
 
+<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;x_N(\theta)=&space;s_N(\theta)&space;&plus;&space;j_N(\theta)&space;&plus;&space;n" title="\bg_white x_N(\theta)= s_N(\theta) + j_N(\theta) + n" />
 
 QPSK symbol set:
 <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;1&plus;j,&space;1-1j,&space;-1&plus;1j,&space;1-1j" title="\bg_white 1+j, 1-1j, -1+1j, 1-1j" />
