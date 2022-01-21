@@ -12,9 +12,14 @@ In depth look at the simulation:
 
 1. We generate bits which transmit over a QPSK modulation, the sequence is made of pilot signals and the transmitted data. 
 A block is defined in the following way using concatenation: [pilots, signals]. 
-The signals are defined in the following way: 
+The transmitted signals are defined in the following way: 
 
 <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;s_{N}(\theta)&space;=&space;e^{2\pi&space;\cdot&space;j&space;\cdot&space;\phi}&space;\cdot&space;e^{-&space;\pi&space;\cdot&space;j&space;\cdot&space;sin(\frac{\pi&space;\cdot&space;\theta}{180})&space;\cdot&space;[0,1,...,N-2,N-1]^{T}}&space;\cdot&space;symbols" title="\bg_white s_{N}(\theta) = e^{2\pi \cdot j \cdot \phi} \cdot e^{- \pi \cdot j \cdot sin(\frac{\pi \cdot \theta}{180}) \cdot [0,1,...,N-2,N-1]^{T}} \cdot symbols" />
+
+The interference which comes from a jammer is defined in the following way:
+
+<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;j_N(\theta)&space;=&space;e^{2\pi&space;\cdot&space;j&space;\cdot&space;\phi_{j}}&space;\cdot&space;e^{-&space;\pi&space;\cdot&space;j&space;\cdot&space;sin(\frac{\pi&space;\cdot&space;\theta_{j}}{180})&space;\cdot&space;[0,1,...,N-2,N-1]^{T}}&space;\cdot&space;\mathcal{CN}" title="\bg_white j_N(\theta) = e^{2\pi \cdot j \cdot \phi_{j}} \cdot e^{- \pi \cdot j \cdot sin(\frac{\pi \cdot \theta_{j}}{180}) \cdot [0,1,...,N-2,N-1]^{T}} \cdot \mathcal{CN}" />
+
 
 where we have N antenas with different time delays to create the effect of coherent summation, as can be seen in the image below describing a phased array setup.
 
