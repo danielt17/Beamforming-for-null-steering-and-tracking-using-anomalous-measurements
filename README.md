@@ -12,6 +12,13 @@ In depth look at the simulation:
 
 1. We generate bits which transmit over a QPSK modulation, the sequence is made of pilot signals and the transmitted data. 
 A block is defined in the following way using concatenation: [pilots, signals]. 
+
+QPSK symbol set:
+<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;1&plus;j,&space;1-1j,&space;-1&plus;1j,&space;1-1j" title="\bg_white 1+j, 1-1j, -1+1j, 1-1j" />
+
+![image](https://user-images.githubusercontent.com/60748408/150105145-57990d96-8ed5-4209-9538-1278fda34ae6.png)
+
+
 The transmitted signals are defined in the following way: 
 
 <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;s_{N}(\theta)&space;=&space;e^{2\pi&space;\cdot&space;j&space;\cdot&space;\phi}&space;\cdot&space;e^{-&space;\pi&space;\cdot&space;j&space;\cdot&space;sin(\frac{\pi&space;\cdot&space;\theta}{180})&space;\cdot&space;[0,1,...,N-2,N-1]^{T}}&space;\cdot&space;symbols" title="\bg_white s_{N}(\theta) = e^{2\pi \cdot j \cdot \phi} \cdot e^{- \pi \cdot j \cdot sin(\frac{\pi \cdot \theta}{180}) \cdot [0,1,...,N-2,N-1]^{T}} \cdot symbols" />
@@ -32,10 +39,6 @@ Therefore the recieved signal model is:
 
 <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;x_N(\theta)=&space;s_N(\theta)&space;&plus;&space;j_N(\theta)&space;&plus;&space;n" title="\bg_white x_N(\theta)= s_N(\theta) + j_N(\theta) + n" />
 
-QPSK symbol set:
-<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;1&plus;j,&space;1-1j,&space;-1&plus;1j,&space;1-1j" title="\bg_white 1+j, 1-1j, -1+1j, 1-1j" />
-
-![image](https://user-images.githubusercontent.com/60748408/150105145-57990d96-8ed5-4209-9538-1278fda34ae6.png)
 
 
 A video describing the beamforming and tracking with respect to time
